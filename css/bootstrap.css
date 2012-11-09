@@ -21,6 +21,10 @@ section {
   display: block;
 }
 
+footer {
+  background-color: #ADB4AC;
+}
+
 audio,
 canvas,
 video {
@@ -160,11 +164,12 @@ textarea {
 
 body {
   margin: 0;
+  margin-top: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background: #ffffff url('../img/creampaper/creampaper.png') repeat;
 }
 
 a {
@@ -2961,14 +2966,14 @@ table th[class*="span"],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+#  background-color: #f5f5f5;
+#  border: 1px solid #e3e3e3;
+#  -webkit-border-radius: 4px;
+#     -moz-border-radius: 4px;
+#          border-radius: 4px;
+#  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+#     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+#          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .well blockquote {
@@ -5844,21 +5849,25 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #D0B2B4;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+
 }
 
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 48px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
